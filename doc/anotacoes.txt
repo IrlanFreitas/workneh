@@ -1,0 +1,39 @@
+REM e EM:
+
+    EM Unidade de medida relativa ao font-size da tag mãe.
+
+    REM Unidade de medida relativa ao font-size da tag com maior nível hierárquico, a tag html.
+
+SVG e tipos de imagem na web:
+
+    PNG, alta qualidade, pouco compacto e muito tamanho de armazenamento.
+
+    JPG, qualidade média, muito compacto, pouco tamanho de armazenamento e não utiliza 
+    efeitos como transparencia.
+
+    GIF, baixa qualidade, uso limitado e tamanho variável (da resolução e comprimento da animação).
+
+    SVG, boa qualidade (não tão boa quanto PNG), não pixeliza com o zoom, 
+    ocupa pouco espaço de armazenamento e desenho feito por calculos, indicado para logotipo, 
+    icones, ilustrações simples.
+
+Conceitos de Mobile First:
+
+    * Mexer menos nos elementos da página.
+    * Seguir o fluxo normal do documento html.
+    * Elementos em pilha (um em cima do outro).
+
+    Algumas motivações para usar mobile-first:
+        * Grande parte dos acessos e vendas vem de dispositivos mobile
+        * O design é minimalista e simplificado
+        * Foco em conteúdo
+
+    Algumas motivações para usar desktop-first:
+        * A interface pode ter diversas features mais ricas
+        * Maior capacidade de banda e processamento
+        * O produto é otimizado para desktop (ex: Google Docs)
+
+Viewport:
+
+    Meta viewport habilita que o navegador reconheça que queremos ver a página
+    como se estivesse sendo vista pelo celular.
