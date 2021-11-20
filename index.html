@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/cabecalho.css" />
     <link rel="stylesheet" href="./css/chamada.css" />
+    <link rel="stylesheet" href="./css/destaques.css" />
     <title>Home | Apeperia</title>
   </head>
   <body>
@@ -34,7 +35,7 @@
         </ul>
       </nav>
     </header>
-    <main >
+    <main>
       <section class="chamada container">
         <h1 class="chamada__titulo">Aplicativos Na Medida</h1>
         <p class="chamada__texto">
@@ -42,6 +43,39 @@
           pequenas e médias empresas.
         </p>
         <a class="chamada__botao botao" href="#">Conheça os planos</a>
+      </section>
+
+      <section class="destaques container">
+        <h2 class="destaques__titulo">Aplicativos Na Medida</h2>
+
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <figure class="destaques__painel">
+            <img
+              class="destaques__painel-imagem"
+              src="./img/comecando-criar-logotipo.png"
+              alt="Painel do post sobre criação de logotipo"
+            />
+            <figcaption class="destaques__painel-texto">
+              Conheça as primeiras etapas para a criação de um logotipo
+            </figcaption>
+          </figure>
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <figure class="destaques__painel">
+            <img
+              class="destaques__painel-imagem"
+              src="./img/dicas-fotografia.png"
+              alt="Painel do post sobre fotografia com celular"
+            />
+            <figcaption class="destaques__painel-texto">
+              Veja dicas de como fotografar usando seu celular
+            </figcaption>
+          </figure>
+        </a>
+        <a class="destaques__botao botao" href="#"
+          >Receber destaques por email</a
+        >
       </section>
     </main>
   </body>
